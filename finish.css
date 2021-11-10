@@ -1,0 +1,242 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bigDiv {
+  display: flex;
+  width: 1476px;
+  height: 1080px;
+  background-color: #78c4f7;
+  opacity: 0.9;
+}
+.smalDiv {
+  display: flex;
+  justify-content: center;
+  width: 1400px;
+  height: 1010px;
+  background-color: #73cbfd;
+  border-radius: 15px;
+  margin: 38px;
+}
+.celsius {
+  display: flex;
+  width: 230px;
+  height: 75px;
+  background-color: #87caf8;
+  cursor: pointer;
+}
+.celsiusNavigation1 {
+  border-radius: 0 0 0 15px;
+  border: 4px solid white;
+}
+.celsiusNavigation2 {
+  border-radius: 0 0 15px 0;
+  border: 4px solid white;
+}
+.celsiusNavigation1:hover {
+  background-color: white;
+  color: black;
+}
+.celsiusNavigation2:hover {
+  background-color: white;
+
+  color: black;
+}
+.celsius > div {
+  width: 115px;
+  height: 75px;
+  background-color: #87caf8;
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  border-top: none;
+}
+.Navigation {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1400px;
+  top: 124px;
+  height: 165px;
+}
+.weatherNavigation {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 415px;
+  height: 165px;
+  color: white;
+  font-size: 50px;
+}
+.my-text {
+  display: flex;
+  width: 300px;
+  height: 48px;
+  background-color: #62b6f1;
+  font-size: 28px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.my-text:hover {
+  background-color: white;
+  border: 3px solid #62b6f1;
+  color: #62b6f1;
+  width: 350px;
+  height: 55px;
+}
+.weatherDay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1400px;
+  height: 118px;
+  border: 3px solid white;
+  border-left: none;
+  border-right: none;
+}
+.day1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  width: 90px;
+  height: 90px;
+  border-radius: 75px;
+  border: 8px solid #62b6f1;
+  cursor: pointer;
+}
+.dayCity {
+  display: flex;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.day1:hover {
+  color: #62b6f1;
+  border: 8px solid #fdfeff;
+}
+#oneDay {
+  color: #054a7b;
+  border: 8px solid #fdfeff;
+}
+.nowLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.numberLogo {
+  font-size: 130px;
+  color: white;
+}
+.dauLogoNumber {
+  display: flex;
+  position: relative;
+  width: 362px;
+  height: 73px;
+  font-size: 22px;
+  color: white;
+}
+.navigationFinish {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1400px;
+  height: 619px;
+}
+.weatherNavigationFinish {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 465px;
+  height: 619px;
+}
+.mySun {
+  display: flex;
+  position: relative;
+  width: 150px;
+  height: 130px;
+  top: 160px;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.loop1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 170px;
+  height: 75px;
+  top: 268px;
+  background-color: #cbe9fc;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: monospace;
+  color: #536295;
+}
+.loop2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 170px;
+  height: 75px;
+  top: 344px;
+  background-color: #cbe9fc;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.loop3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 170px;
+  height: 75px;
+  top: 420px;
+  background-color: #cbe9fc;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.smalLoop{
+  display: flex;
+  margin-right: 17px;
+}
+.loop4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 170px;
+  height: 75px;
+  top: 496px;
+  background-color: #cbe9fc;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.sunDay {
+  display: flex;
+  position: relative;
+  top: 150px;
+}
+.oneButton:hover {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  color: white;
+  border: 9px solid #f8f1f1;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
